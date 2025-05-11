@@ -423,3 +423,7 @@ const createBookUI = (bookList) => {
     bookUI.initializeUI()
     return bookUI
 }
+
+// Initialize application
+const bookList = createBookList(books, BOOKS_PER_PAGE)
+const ui = createBookUI(bookList)
